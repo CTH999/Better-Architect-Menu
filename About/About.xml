@@ -175,5 +175,7 @@
         <li>adamas.vendingmachines</li>
         <li>sarg.alphabooks</li>
         <li>telardo.multifloors</li>
+		
+		<!-- progression -->
     </loadAfter>
 </ModMetaData>
