@@ -286,4 +286,29 @@
                         <designationCategory>Ferny_GearStorage</designationCategory>
                     </value>
                 </Operation>
+
+<!-- CULTURE -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFE_AnimalSarcophagus"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Ideology</designationCategory>
+                    </value>
+                </Operation>
+
+<!-- AREA -->
+	            <Operation Class="PatchOperationReplace">
+		            <success>Always</success>
+		            <xpath>Defs/ThingDef[defName="Bin_Large"]/designationCategory</xpath>
+		            <value>
+			            <designationCategory>Temperature</designationCategory>
+		            </value>
+	            </Operation>
+	            <Operation Class="PatchOperationReplace">
+		            <success>Always</success>
+		            <xpath>Defs/ThingDef[defName="Bin_Small"]/designationCategory</xpath>
+		            <value>
+			            <designationCategory>Temperature</designationCategory>
+		            </value>
+	            </Operation>
 </Patch>
